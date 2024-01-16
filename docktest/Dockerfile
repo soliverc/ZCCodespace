@@ -5,7 +5,7 @@ RUN pip install pandas
 
 # set up working directory
 # this also CD's to the WD when runnning the image
-WORKDIR app/
+WORKDIR /app/
 
 # copy the pipeline script from the folder to the image
 # i believe it sends it to the WD
