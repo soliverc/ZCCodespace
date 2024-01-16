@@ -1,7 +1,8 @@
 # which image to use
 FROM python:3.9
 # things to set up
-RUN pip install pandas
+RUN pip install pandas 
+
 
 # set up working directory
 # this also CD's to the WD when runnning the image
