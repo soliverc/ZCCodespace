@@ -5,7 +5,7 @@ FROM python:3.9
 RUN apt-get install wget
 RUN pip install pandas sqlalchemy psycopg2
 
-s
+
 # set up working directory
 # this also CD's to the WD when runnning the image
 WORKDIR /app/
